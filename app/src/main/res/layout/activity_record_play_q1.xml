@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecordPlayQ1"
+    android:background="#0B173D"
+    android:orientation = "vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/landmsg"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="15dp"
+        android:text="Please film in landscape mode!"
+        android:textAlignment="center"
+        android:textColor="#D1A103"
+        android:textSize="20sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:adjustViewBounds="false"
+        android:visibility="visible"
+        app:srcCompat="@android:drawable/ic_menu_always_landscape_portrait" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="55dp"
+        android:onClick="captureVideo"
+        android:text="Record"
+        android:textColor="#D1A103"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="55dp"
+        android:onClick="playVideo"
+        android:text="Play"
+        android:textColor="#D1A103"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonSaveVid"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="150dp"
+        android:clickable="false"
+        android:text="SAVE"
+        android:textColor="#D1A103"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+</LinearLayout>

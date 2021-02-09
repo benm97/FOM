@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B173D"
+    android:layout_margin="0dp"
+    android:baselineAligned="false"
+    tools:context=".ThirdQ"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="15dp"
+        android:text="QUESTIONS"
+        android:textAlignment="center"
+        android:textColor="#D1A103"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="195dp"
+        android:layout_height="56dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="15dp"
+        android:text="    1st QUESTION  saved"
+        android:textColor="#D1A103"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="191dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="15dp"
+        android:text="   2ND QUESTION  saved"
+        android:textColor="#D1A103"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="189dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="3rd question"
+        android:textColor="#D1A103"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+
+</LinearLayout>

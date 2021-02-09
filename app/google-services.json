@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "676997549294",
+    "firebase_url": "https://video-concatenation.firebaseio.com",
+    "project_id": "video-concatenation",
+    "storage_bucket": "video-concatenation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676997549294:android:80ca93bc08a9bc6d3637ff",
+        "android_client_info": {
+          "package_name": "com.example.fom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676997549294-4qfuodf0ch7nrmb5ofad08slb109uquv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADLLiOvwcRQUer0YKKOT4GIGb6uPATc1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676997549294-4qfuodf0ch7nrmb5ofad08slb109uquv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

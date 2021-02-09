@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#0B173D"
+    android:baselineAligned="false"
+    tools:context=".AllQ"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        android:text="CHOOSE ONE QUESTION"
+        android:textAlignment="center"
+        android:textColor="#D1A103"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="39dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Tell us about a difficulty you have faced"
+        android:textColor="#D1A103"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="How did you feel and what helped you to overcome it?"
+        android:textColor="#D1A103"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="What is your imperative for us to continue?"
+        android:textColor="#D1A103"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add your question"
+        android:textColor="#D1A103"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="654dp" />
+
+
+</LinearLayout>
